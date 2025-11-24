@@ -200,3 +200,10 @@ Resultado esperado:
 drwxrws--- 2 root seguridad 4096 oct 10 /seguridad
 ```
 Solo root y los usuarios del grupo seguridad pueden acceder.
+
+
+Recordatorio:
+3 formas de eliminar un usuario de un grupo:
+- deluser usuario grupo
+- gpasswd -d usuario grupo
+- editando /ect/group
